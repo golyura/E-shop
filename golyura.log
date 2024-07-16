@@ -1,0 +1,113 @@
+2024-07-15T16:21:39.033+03:00  INFO 7836 --- [Test worker] c.g.s.i.d.r.CustomerRepositoryIT         : Starting CustomerRepositoryIT using Java 21.0.2 with PID 7836 (started by Yura in C:\Users\Yura\IdeaProjects\E-shop)
+2024-07-15T16:21:39.036+03:00  INFO 7836 --- [Test worker] c.g.s.i.d.r.CustomerRepositoryIT         : The following 1 profile is active: "test"
+2024-07-15T16:21:39.855+03:00  INFO 7836 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-15T16:21:39.979+03:00  INFO 7836 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109 ms. Found 2 JPA repository interfaces.
+2024-07-15T16:21:41.238+03:00  INFO 7836 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-15T16:21:41.674+03:00  INFO 7836 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@35329a05
+2024-07-15T16:21:41.678+03:00  INFO 7836 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-15T16:21:41.984+03:00  INFO 7836 --- [Test worker] liquibase.database                       : Set default schema name to public
+2024-07-15T16:21:42.642+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : Creating database history table with name: public.databasechangelog
+2024-07-15T16:21:42.711+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : Reading from public.databasechangelog
+2024-07-15T16:21:42.812+03:00  INFO 7836 --- [Test worker] liquibase.lockservice                    : Successfully acquired change log lock
+2024-07-15T16:21:42.815+03:00  INFO 7836 --- [Test worker] liquibase.command                        : Using deploymentId: 1049702814
+2024-07-15T16:21:42.819+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : Reading from public.databasechangelog
+2024-07-15T16:21:42.835+03:00  INFO 7836 --- [Test worker] liquibase.ui                             : Running Changeset: db/changelog/db.changelog-1.0.sql::1::golyura
+2024-07-15T16:21:42.859+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : Custom SQL executed
+2024-07-15T16:21:42.862+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-1.0.sql::1::golyura ran successfully in 25ms
+2024-07-15T16:21:42.873+03:00  INFO 7836 --- [Test worker] liquibase.ui                             : Running Changeset: db/changelog/db.changelog-1.0.sql::2::golyura
+2024-07-15T16:21:42.884+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : Custom SQL executed
+2024-07-15T16:21:42.886+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-1.0.sql::2::golyura ran successfully in 13ms
+2024-07-15T16:21:42.893+03:00  INFO 7836 --- [Test worker] liquibase.ui                             : Running Changeset: db/changelog/db.changelog-1.0.sql::3::golyura
+2024-07-15T16:21:42.908+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : Custom SQL executed
+2024-07-15T16:21:42.910+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-1.0.sql::3::golyura ran successfully in 16ms
+2024-07-15T16:21:42.917+03:00  INFO 7836 --- [Test worker] liquibase.ui                             : Running Changeset: db/changelog/db.changelog-1.0.sql::4::golyura
+2024-07-15T16:21:42.926+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : Custom SQL executed
+2024-07-15T16:21:42.928+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-1.0.sql::4::golyura ran successfully in 10ms
+2024-07-15T16:21:42.934+03:00  INFO 7836 --- [Test worker] liquibase.ui                             : Running Changeset: db/changelog/db.changelog-1.0.sql::5::golyura
+2024-07-15T16:21:42.944+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : Custom SQL executed
+2024-07-15T16:21:42.946+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-1.0.sql::5::golyura ran successfully in 11ms
+2024-07-15T16:21:42.951+03:00  INFO 7836 --- [Test worker] liquibase.ui                             : Running Changeset: db/changelog/db.changelog-1.0.sql::6::golyura
+2024-07-15T16:21:42.958+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : Custom SQL executed
+2024-07-15T16:21:42.960+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-1.0.sql::6::golyura ran successfully in 9ms
+2024-07-15T16:21:42.965+03:00  INFO 7836 --- [Test worker] liquibase.ui                             : Running Changeset: db/changelog/db.changelog-1.0.sql::7::golyura
+2024-07-15T16:21:42.976+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : Custom SQL executed
+2024-07-15T16:21:42.979+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-1.0.sql::7::golyura ran successfully in 12ms
+2024-07-15T16:21:42.984+03:00  INFO 7836 --- [Test worker] liquibase.ui                             : Running Changeset: db/changelog/db.changelog-2.0.sql::1::golyura
+2024-07-15T16:21:42.995+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : Custom SQL executed
+2024-07-15T16:21:42.997+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-2.0.sql::1::golyura ran successfully in 13ms
+2024-07-15T16:21:43.003+03:00  INFO 7836 --- [Test worker] liquibase.ui                             : Running Changeset: db/changelog/db.changelog-2.1.sql::1::golyura
+2024-07-15T16:21:43.012+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : Custom SQL executed
+2024-07-15T16:21:43.014+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-2.1.sql::1::golyura ran successfully in 11ms
+2024-07-15T16:21:43.021+03:00  INFO 7836 --- [Test worker] liquibase.ui                             : Running Changeset: db/changelog/db.changelog-2.1.sql::2::golyura
+2024-07-15T16:21:43.029+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : Custom SQL executed
+2024-07-15T16:21:43.030+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-2.1.sql::2::golyura ran successfully in 8ms
+2024-07-15T16:21:43.035+03:00  INFO 7836 --- [Test worker] liquibase.ui                             : Running Changeset: db/changelog/db.changelog-2.2.sql::1::golyura
+2024-07-15T16:21:43.040+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : Custom SQL executed
+2024-07-15T16:21:43.042+03:00  INFO 7836 --- [Test worker] liquibase.changelog                      : ChangeSet db/changelog/db.changelog-2.2.sql::1::golyura ran successfully in 6ms
+2024-07-15T16:21:43.053+03:00  INFO 7836 --- [Test worker] liquibase.util                           : UPDATE SUMMARY
+2024-07-15T16:21:43.054+03:00  INFO 7836 --- [Test worker] liquibase.util                           : Run:                         11
+2024-07-15T16:21:43.054+03:00  INFO 7836 --- [Test worker] liquibase.util                           : Previously run:               0
+2024-07-15T16:21:43.054+03:00  INFO 7836 --- [Test worker] liquibase.util                           : Filtered out:                 0
+2024-07-15T16:21:43.054+03:00  INFO 7836 --- [Test worker] liquibase.util                           : -------------------------------
+2024-07-15T16:21:43.055+03:00  INFO 7836 --- [Test worker] liquibase.util                           : Total change sets:           11
+2024-07-15T16:21:43.056+03:00  INFO 7836 --- [Test worker] liquibase.util                           : Update summary generated
+2024-07-15T16:21:43.060+03:00  INFO 7836 --- [Test worker] liquibase.command                        : Update command completed successfully.
+2024-07-15T16:21:43.061+03:00  INFO 7836 --- [Test worker] liquibase.ui                             : Liquibase: Update has been successful. Rows affected: 11
+2024-07-15T16:21:43.068+03:00  INFO 7836 --- [Test worker] liquibase.lockservice                    : Successfully released change log lock
+2024-07-15T16:21:43.070+03:00  INFO 7836 --- [Test worker] liquibase.command                        : Command execution complete
+2024-07-15T16:21:43.244+03:00  INFO 7836 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-15T16:21:43.376+03:00  INFO 7836 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-15T16:21:43.449+03:00  INFO 7836 --- [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-15T16:21:43.626+03:00  INFO 7836 --- [Test worker] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2024-07-15T16:21:44.015+03:00  INFO 7836 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-15T16:21:44.653+03:00  INFO 7836 --- [Test worker] o.h.e.c.i.m.AuditMetadataGenerator       : Adding properties for entity: com.gol.shop.database.entity.Customer
+2024-07-15T16:21:46.093+03:00  INFO 7836 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-15T16:21:46.644+03:00  INFO 7836 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-15T16:21:46.661+03:00  INFO 7836 --- [Test worker] c.gol.shop.database.pool.ConnectionPool  : Init connection pool
+2024-07-15T16:21:48.338+03:00  INFO 7836 --- [Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-15T16:21:49.870+03:00  INFO 7836 --- [Test worker] c.g.s.i.d.r.CustomerRepositoryIT         : Started CustomerRepositoryIT in 11.414 seconds (process running for 18.265)
+2024-07-15T16:21:50.257+03:00  WARN 7836 --- [Test worker] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2024-07-15T16:21:51.986+03:00  WARN 7836 --- [Test worker] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2024-07-15T16:21:52.017+03:00  WARN 7836 --- [Test worker] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2024-07-15T16:21:52.049+03:00  WARN 7836 --- [Test worker] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2024-07-15T16:21:53.036+03:00  INFO 7836 --- [Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.gol.shop.EShopApplication for test class com.gol.shop.integration.database.repository.ProductRepositoryIT
+2024-07-15T16:21:53.291+03:00  INFO 7836 --- [Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.gol.shop.EShopApplication for test class com.gol.shop.integration.service.CustomerServiceIT
+2024-07-15T16:21:53.916+03:00  INFO 7836 --- [SpringApplicationShutdownHook] c.gol.shop.database.pool.ConnectionPool  : Clean connection pool
+2024-07-15T16:21:53.917+03:00  INFO 7836 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-15T16:21:53.919+03:00  INFO 7836 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-15T16:21:53.933+03:00  INFO 7836 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-15T16:22:14.778+03:00  INFO 8796 --- [main] com.gol.shop.EShopApplication            : Starting EShopApplication using Java 21.0.2 with PID 8796 (C:\Users\Yura\IdeaProjects\E-shop\build\classes\java\main started by Yura in C:\Users\Yura\IdeaProjects\E-shop)
+2024-07-15T16:22:14.788+03:00  INFO 8796 --- [main] com.gol.shop.EShopApplication            : The following 1 profile is active: "qa"
+2024-07-15T16:22:15.347+03:00  INFO 8796 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-15T16:22:15.444+03:00  INFO 8796 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 2 JPA repository interfaces.
+2024-07-15T16:22:16.243+03:00  INFO 8796 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-15T16:22:16.470+03:00  INFO 8796 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@58606c91
+2024-07-15T16:22:16.472+03:00  INFO 8796 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-15T16:22:16.662+03:00  INFO 8796 --- [main] liquibase.database                       : Set default schema name to public
+2024-07-15T16:22:17.146+03:00  INFO 8796 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2024-07-15T16:22:17.202+03:00  INFO 8796 --- [main] liquibase.ui                             : Database is up to date, no changesets to execute
+2024-07-15T16:22:17.218+03:00  INFO 8796 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2024-07-15T16:22:17.237+03:00  INFO 8796 --- [main] liquibase.util                           : UPDATE SUMMARY
+2024-07-15T16:22:17.237+03:00  INFO 8796 --- [main] liquibase.util                           : Run:                          0
+2024-07-15T16:22:17.238+03:00  INFO 8796 --- [main] liquibase.util                           : Previously run:              11
+2024-07-15T16:22:17.238+03:00  INFO 8796 --- [main] liquibase.util                           : Filtered out:                 0
+2024-07-15T16:22:17.238+03:00  INFO 8796 --- [main] liquibase.util                           : -------------------------------
+2024-07-15T16:22:17.238+03:00  INFO 8796 --- [main] liquibase.util                           : Total change sets:           11
+2024-07-15T16:22:17.239+03:00  INFO 8796 --- [main] liquibase.util                           : Update summary generated
+2024-07-15T16:22:17.283+03:00  INFO 8796 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2024-07-15T16:22:17.286+03:00  INFO 8796 --- [main] liquibase.command                        : Command execution complete
+2024-07-15T16:22:17.408+03:00  INFO 8796 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-15T16:22:17.508+03:00  INFO 8796 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-15T16:22:17.559+03:00  INFO 8796 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-15T16:22:17.712+03:00  INFO 8796 --- [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2024-07-15T16:22:18.130+03:00  INFO 8796 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-15T16:22:18.700+03:00  INFO 8796 --- [main] o.h.e.c.i.m.AuditMetadataGenerator       : Adding properties for entity: com.gol.shop.database.entity.Customer
+2024-07-15T16:22:20.205+03:00  INFO 8796 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-15T16:22:20.743+03:00  INFO 8796 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-15T16:22:20.811+03:00  INFO 8796 --- [main] c.gol.shop.database.pool.ConnectionPool  : Init connection pool
+2024-07-15T16:22:21.137+03:00  INFO 8796 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-15T16:22:21.800+03:00  INFO 8796 --- [main] com.gol.shop.EShopApplication            : Started EShopApplication in 7.986 seconds (process running for 9.129)
+2024-07-15T16:22:21.809+03:00  INFO 8796 --- [SpringApplicationShutdownHook] c.gol.shop.database.pool.ConnectionPool  : Clean connection pool
+2024-07-15T16:22:21.810+03:00  INFO 8796 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-15T16:22:21.812+03:00  INFO 8796 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-15T16:22:21.816+03:00  INFO 8796 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
